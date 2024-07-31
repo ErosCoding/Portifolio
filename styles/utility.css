@@ -1,0 +1,18 @@
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.content-tag {
+  font: var(--title-sm);
+  color: var(--gray-600);
+}
+
+.desc-text-sm {
+  font: var(--text-sm);
+  color: var(--gray-500);
+}
+
+.grid-flow {
+  grid-auto-flow: column;
+}

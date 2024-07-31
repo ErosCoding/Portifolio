@@ -1,0 +1,51 @@
+#avatar {
+  border: 2px solid var(--red);
+  border-radius: 999px;
+  display:inline-block;
+  width: 112px;
+  height: 112px;
+  background-image: url(../assets/imgs/avatar.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#code {
+  width: 32px;
+  height: 32px;
+  padding: 78px;
+  color: var(--green);
+}
+
+#intro {
+  padding: 163px 120px;
+  text-align: center;
+}
+
+#projects {
+  height: 917px;
+  text-align: center;
+}
+
+
+#grid-container {
+  display: grid;
+  grid-template-columns: 
+  A B C
+  A B C;
+}
+
+#A {
+  grid-area: A;
+  position: relative;
+}
+
+#B {
+  grid-area: B;
+  position: relative;
+}
+
+#C {
+  grid-area: C;
+  
+}

@@ -31,5 +31,13 @@
 }
 
 body {
-  font: var(--sub-font);
+  background-image: url(../assets/imgs/Background_Intro.png);
+  background-size: 1920px 1080px;
+  background-repeat: no-repeat;
+  background-color: var(--gray-200);
+  font: var(--font-family);
+}
+
+img{
+  max-width: 100%;
 }

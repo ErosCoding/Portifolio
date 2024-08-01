@@ -36,8 +36,21 @@ body {
   background-repeat: no-repeat;
   background-color: var(--gray-200);
   font: var(--font-family);
+  
 }
 
 img{
   max-width: 100%;
 }
+
+strong {
+  color: var(--red);
+}
+
+span {
+  display: grid;
+  background-color: var(--gray-300);
+  border-radius: 999px;
+  padding: 8px 16px; 
+}
+

@@ -24,28 +24,28 @@
 
 #projects {
   height: 917px;
-  text-align: center;
-}
-
-
-#grid-container {
   display: grid;
-  grid-template-columns: 
-  A B C
-  A B C;
+  justify-content: center;
+
+  img{
+    width: 306px;
+    height: 156px;
+    border-radius: 8px;
+  }
 }
 
-#A {
-  grid-area: A;
-  position: relative;
+#card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 12px 12px;
 }
 
-#B {
-  grid-area: B;
-  position: relative;
+#card2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  padding: 12px 12px;
 }
 
-#C {
-  grid-area: C;
-  
-}
+

@@ -13,6 +13,17 @@
   color: var(--gray-500);
 }
 
-.grid-flow {
-  grid-auto-flow: column;
+.content-tag {
+  color: var(--gray-300);
+  border-radius: 12px;
 }
+
+.content-card {
+  display: grid;
+  width: 330px;
+  height: 280px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+  padding: 8px 16px; 
+}
+
